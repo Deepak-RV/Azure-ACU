@@ -29,10 +29,10 @@ jobs:
       #  run: p:_PackageTempDir="\published\"
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
-        with:
-          name: ASP-app
-          path: '/published/**'
+     #   uses: actions/upload-artifact@v3
+     #   with:
+     #     name: ASP-app
+      #    path: '/published/**'
 
   deploy:
     runs-on: windows-latest
